@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <link rel="shortcut icon" href="recursos/flavicon.png">
+    
+    <title>Prueba técnica Front-End - Santiago Chia</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo-header">CONTACTO</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
+            <a class="navbar-brand" href="#" >
+                <img src="C:\Users\Santiago Chia\Desktop\Prueba Vass\recursos\logo_nav.png" width="50" height="" alt="">
+            </a>
+            <div>
+                <img class="nav-icon-search" src="C:\Users\Santiago Chia\Desktop\Prueba Vass\recursos\search.png" width="15vh" alt="search.icon">
+                <button class="navbar-toggler" type="button" id="collapse-one" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menuicon"></span>
+                </button>
+            </div>
+
+               
+            <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item nav-item-opacity no-opacity">
+                    <a class="nav-link" href="#">En</a>
+                </li>
+                <li class="nav-item nav-item-opacity no-opacity">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Casos de éxito</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Mercados
+                    </a>
+                </li>
+                <li class="nav-item dropdown opacity">
+                    <a class="nav-link dropdown-toggle opacity" href="#" id="paisesDrop" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Países
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Cómo lo hacemos 
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Somos VASS
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Insights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VASS Research</a>
+                </li>
+                <li class="nav-item  opacity">
+                    <a class="nav-link" href="#">EN</a>
+                </li>
+                <li class="nav-item opacity">
+                    <a class="nav-link" href="#">
+                        <img src="C:\Users\Santiago Chia\Desktop\Prueba Vass\recursos\search.png" width="12vh" alt="search.icon">
+                    </a>
+                </li>
+                <li class="nav-item nav-item-opacity no-opacity">
+                    <a class="nav-link" href="#">Talento</a>
+                </li>
+            </ul>
+            <span class="navbar-text opacity">
+                <a href="#">Talento</a>
+            </span>
+            </div>
+        </nav>
+        <div class="nav-paises paises-inactive fixed-top" id="opcion-pais">
+            <ul>
+                <li><a href="#">Chile</a></li>
+                <li><a href="#">Colombia</a></li>
+                <li><a href="#">México</a></li>
+                <li><a href="#">Perú</a></li>
+                <li><a href="#">Reino Unido</a></li>
+                <li><a href="#">Benelux</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="frase-section">
+        <h5 class="frase">EMPEZAMOS A <br> HACERLO SENCILLO</h5>
+        <div class="text_frase-section">
+            Nos emociona impulsar tu transformación digital
+        </div>
+    </section>
+    <section class="form-section">
+        <form id="form-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="nombre_txt" class="form-label">Nombre y apellido</label>
+                            <input type="text" class="form-item" id="nombre_txt" placeholder="Nombre y apellido">
+                            <div class="invalid-feedback">
+                                El campo es obligatorio*
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-item" id="email" placeholder="Email">
+                            <div class="invalid-feedback">
+                                El campo es obligatorio*
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa_txt" class="form-label">Empresa/Organismo</label>
+                            <input type="text" class="form-item" id="empresa_txt" placeholder="Empresa/Organismo">
+                            <div class="invalid-feedback">
+                                El campo es obligatorio*
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pais_txt" class="form-label">País</label>
+                            <input type="text" class="form-item" id="pais_txt" placeholder="País">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="telefono_txt" class="form-label">teléfono</label>
+                            <input type="text" class="form-item" id="telefono_txt" placeholder="teléfono">
+                        </div>
+                        <div class="textArea-form">
+                            <label for="validationTextarea">mensaje</label>
+                            <textarea class="form-control" id="validationTextarea"></textarea>
+                            <div class="invalid-feedback">
+                              El campo es obligatorio*
+                            </div>
+                        </div>
+                        <button type="submit" class="btn rounded-circle">Enviar</button>
+                    </div>
+                </div>    
+            </div>
+        </form>
+    </section>
+    <footer class="footer-section">
+        <section class="footer-information">
+            <div class="list-footer text-right ml-sm i-1">
+                <ul>
+                    <li><p>Complex<br>made<br>simple</p></li>
+                    <img src="recursos/logo_nav.png" width="80" height="" alt="VASS" class="icon-footer">
+                </ul>
+            </div>
+            <div class="list-footer ml-sm">
+                <ul>
+                    <p><b>Sitemap VASS</b></p>
+                    <li>Home</li>
+                    <li>Casos éxito</li>
+                    <li>Somos VASS</li>
+                    <li>Impactos</li>
+                    <li>Método</li>
+                    <li>Tecnologías</li>
+                    <li>Proyecto l+D+i</li>
+                    <li>Insights</li>
+                    <li>Noticias</li>
+                    <li>VASS Research</li>
+                    <li>Canal de denuncias</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            <div class="list-footer ml-md">
+                <ul>
+                    <p><b>Sitemap Talento</b></p>
+                    <li>Talento</li>
+                    <li>#LifeVASS</li>
+                    <li>Beneficios</li>
+                    <li>Planes para ti</li>
+                    <li>Proyectos</li>
+                    <li>Smartworking</li>
+                    <li>Ofertas</li>
+                </ul>
+            </div>
+            <div class="list-footer ml-md">
+                <ul>
+                    <p><b>Empresas</b></p>
+                    <li>VASS</li>
+                    <li>Nateevo</li>
+                    <li>Serbatic</li>
+                    <li>vdSHOP</li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-mediaSocials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="footer-social-p">Copyright © 2021 Todos los derechos reservados</p>
+                    </div>
+                    <div class="col-md-7 list-footer-second">
+                        <ul>
+                            <li>Memoria ambiental</li>
+                            <li>Política de cookies</li>
+                            <li>Política de privacidad</li>
+                            <li>Política de calidad y medio ambiente</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 list-footer-social aling-center">
+                        <ul>
+                            <li><img src="recursos/twitter-icon.png" width="15"  height=""></li>
+                            <li><img src="recursos/linkendin-icon.png" width="15"  height=""></li>
+                            <li><img src="recursos/instagram-icon.png" width="15"  height=""></li>
+                            <li><img src="recursos/youtube-icon.png" width="15"  height=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
